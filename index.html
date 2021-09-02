@@ -6,10 +6,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Motor-Bike</title>
+    <!-- customize css stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
 </head>
 
 <body>
+    <header class="bg-color py-5 mb-4">
+        <!-- navbar -->
 
+        <!-- head banner -->
+        <div class="container m-0 row gx-4 d-flex align-items-center ">
+            <div class="text-white col-12 col-lg-7 ">
+                <p>Computer-controlled digital transistorized with electronic advance</p>
+                <h1>Honda CBR 300R</h1>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua
+                    dolor do amet sint. Velit officia consequat duis enim velit
+                    mollit. Exercitation veniam consequat sunt nostrud amet</p>
+                <!-- <button class="btn btn-danger">Purchase</button> -->
+                <!-- button modal -->
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Purchase
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-12 col-lg-5">
+                <img src="images/header-bike.png" class="img-fluid" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- fetured bikes section -->
+        <section class="container mt-4">
+            <div class="text-center">
+                <h1>Fetured Bikes 2021</h1>
+                <p>Best bike collection</p>
+            </div>
+            <div class="row m-0 d-flex justify-content-around">
+                <div class="col-lg-4">
+                    <img style="filter: grayscale(100%);" width="288px" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <img width="288px" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <img style="filter: grayscale(100%);" width="288px" src="images/feature-bike.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- js sheet -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
